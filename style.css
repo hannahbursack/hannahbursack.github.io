@@ -1,0 +1,99 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:700,300);
+
+body {
+  background-color: rgb(242, 230, 255);
+  font-family: "Lato", sans-serif;
+}
+
+#wrapper {
+  max-width: 960px, auto;
+  min-width: 320px;
+  margin: 10, auto;
+  overflow: auto;
+}
+
+h1 {
+  font-size: 28;
+  color: rgb(0, 0, 0);
+  text-align: center;
+}
+
+a {
+  color: pink;
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+  color: blue;
+}
+
+a:active {
+  color: purple;
+}
+
+header ul, nav ul {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  list-style-type: none;
+  text-align: center;
+}
+
+header ul li, nav ul li {
+  display: inline-block;
+  overflow: auto;
+  text-align: center;
+}
+
+h2 {
+  font-size: 20px;
+  color: rgb(128, 128, 128);
+}
+
+div.education {
+  margin: 5px;
+  padding: 5px;
+}
+
+div.experience {
+  margin: 5px;
+  padding: 5px;
+}
+
+div.campus_activities {
+  margin: 5px;
+  padding: 5px;
+}
+
+div.relevant_coursework {
+  margin: 5px;
+  padding: 5px;
+}
+
+div.honors_and_awards {
+  margin: 5px;
+  padding: 5px;
+}
+
+div.skills {
+  margin: 5px;
+  padding: 5px;
+}
+
+.title {
+  font-size: 16px;
+  font-style: oblique;
+}
+
+.date {
+  font-size: 15px;
+  font-style: italic;
+}
+
+.description {
+  font-size: 14px;
+  width: 500px;
+}
