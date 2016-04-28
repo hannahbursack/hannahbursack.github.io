@@ -1,0 +1,121 @@
+@import url(https://fonts.googleapis.com/css?family=PT+Sans:400,400italic|Varela+Round);
+
+body {
+  background-color: rgb(210, 250, 247);
+  font-family: 'PT Sans', 'Avenir', sans-serif;
+}
+
+nav ul {
+  height: 4em;
+  margin-bottom: -2px;
+  padding: 0;
+  overflow: hidden;
+  list-style-type: none;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline-block;
+  overflow: auto;
+  text-align: center;
+  margin: 1em;
+  font-family: 'Valera Round', 'Avenir', sans-serif;
+}
+
+h1 {
+  font-family: "Helvetica", sans-serif;
+  letter-spacing: .3em;
+  font-size: 48px;
+  color: rgb(239, 108, 12);
+  text-align: center;
+}
+
+h2 {
+  font-family: "Helvetica", sans-serif;
+  font-size: 22px;
+  text-transform: uppercase;
+  letter-spacing: .15em;
+  line-height: 80%;
+}
+
+p.details {
+  font-size: 14px;
+  margin-bottom: -12px;
+  margin-top: -2px;
+  color: rgb();
+  font-style: italic;
+}
+
+p {
+  font-size: 14px;
+}
+
+main ul li {
+  font-size: 12px;
+  text-align: left;
+  margin-left: -18px;
+}
+
+a {
+  color: orange;
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+  color: orange;
+}
+
+a:active {
+  color: purple;
+}
+
+#container {
+  max-width: 960px;
+  background-color: rgba(255,255,255,0.65);
+  margin: 0 auto;
+  margin-bottom: 1em;
+  padding: 2.5em;
+}
+
+.clearfix:after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+
+#column_1 {
+  width: 45%;
+  margin-bottom: 20px;
+  float: left;
+}
+
+#column_2 {
+  width: 45%;
+  margin-bottom: 20px;
+  float: right;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+#contact ul {
+  height: 4em;
+  margin-left: -15px;
+  margin-bottom: -5px;
+  padding: 0;
+  overflow: hidden;
+  list-style-type: none;
+}
+
+#contact ul li {
+  display: inline-block;
+  overflow: auto;
+  text-align: center;
+  margin: 1em;
+  font-size: 16px;
+}
